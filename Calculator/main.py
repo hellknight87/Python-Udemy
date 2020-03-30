@@ -1,7 +1,7 @@
 import re
 
 print("Our Magical Calculator")
-print("TYpe 'quit' to exit\n")
+print("Type 'quit' to exit\n")
 
 previous = 0
 run = True
@@ -15,7 +15,7 @@ def performMath():
     else:
         previous = eval(equation)
 
-        print("You Typed", equation)
+        print("You Typed", previous)
 
 while run:
     performMath()
