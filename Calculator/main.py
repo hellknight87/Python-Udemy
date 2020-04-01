@@ -13,7 +13,7 @@ def performMath():
     if equation == 'quit':
         run = False
     else:
-        equation = re.sub('[a-zA-Z,.()+" "]')
+       
         previous = eval(equation)
 
         print("You Typed", previous)
